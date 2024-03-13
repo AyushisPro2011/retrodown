@@ -1,0 +1,63 @@
+
+
+.navbar{
+    border: 1px solid black;
+    width: 99.5%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2%;
+    align-items: center;
+    background:linear-gradient(45deg , rgba(0,0,0,0.8) , rgba(50,50,50 , 0.8) );
+}
+.navbarLeft{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbarLeft > button{
+    height: 100%;
+    width: 33%;
+    background-color: transparent;
+    border: none;
+   border: 1px solid lightgreen;
+    background-color: transparent;
+    color: lightgreen;
+    font-size: 150%;
+    border-color: lightgreen;
+    box-shadow: 1px 1px 2px lightgreen , inset 2px 2px 6px cyan;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.navbarLeft > button:hover{
+    cursor: pointer;
+    font-size: 180%;
+    background-color: lightgreen;
+    color: brown;
+    text-shadow: 1px 1px 1px yellow;
+}
+.navbar > div > p{
+    height: 100%;
+    font-weight: 100;
+    color: transparent;
+    background: linear-gradient(45deg , rgb(54, 54, 235) , rgb(54, 226, 59) , rgb(229, 161, 33));
+    background-clip: text;
+    font-size: 300%;
+}
+.navbarRight{
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+}
+.navbarRight > img{
+    width: 50px;
+    height: 53px;
+    border-radius: 50%;
+}
+.navbarLeftCustom{
+    width: 10%; 
+}
