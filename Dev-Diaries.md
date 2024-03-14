@@ -19,6 +19,9 @@ Crashes:2
 -The error was that the default nextjs.yml file was outdated as it used "next export" which is deprecated in favor of output : export property in next.config.js so I had to serach forums and documentations for that and fix the code myself. Then finally it deployed at ayushispro2011.github.io/retrodown
 
 
+Crashes: 3
+
+
 
 //note for myself
 -Make image optmizatiion true in the server side version
