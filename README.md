@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# RetroDown.com
+-Retrodown is an open-source and free project created by Ayush Gupta to learn Next.js.

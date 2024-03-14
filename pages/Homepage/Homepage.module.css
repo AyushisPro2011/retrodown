@@ -3,4 +3,40 @@
     max-width: 100vw;
     background-color: rgba(0,0,0,0.7);
     box-shadow: 10px 10px 10px black , -10px -10px 10px black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.homepagemain{
+    border: 1px solid white;
+    margin-top: 1%;
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.homepageoptions{
+    box-shadow: 2px 2px 2px cyan;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(45deg , rgba(76, 0, 130, 0.459),rgba(0, 255, 255, 0.382) , blue );
+}
+.homepageoptions > button{
+    border: none;
+    background-color: transparent;
+    width: 33%;
+    font-size: 200%;
+    color: white;
+    cursor: pointer;
+    transition: font-size 0.25s ease-in-out;
+}
+.homepageoptions > button:hover{
+    font-size: 300%;
+    box-shadow:-2px -2px 5px yellow , 2px 2px 5px cyan;
 }
