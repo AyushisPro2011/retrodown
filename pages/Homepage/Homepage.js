@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 import styles from './Homepage.module.css'
 import Head from 'next/head'
+import Link from 'next/link'
 
 const Homepage = () => {
     const [selectedcategory , setselectedcategory] = useState(null)
@@ -21,7 +22,10 @@ const Homepage = () => {
                     <button onClick={() => {setselectedcategory("Emulators")}}>Emulators</button>
                 </div>
                 <div className={styles.cardbox}>
-                    {selectedcategory}
+                    {/* {selectedcategory} */}
+                    <Link href={{pathname: `/Launch/Launch` , query: {title: selectedcategory}}}>
+                        Hello
+                    </Link>
                 </div>
             </div>
            

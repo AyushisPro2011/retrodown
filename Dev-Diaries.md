@@ -20,6 +20,8 @@ Crashes:2
 
 
 Crashes: 3
+# Day-4
+-I learnt how to pass props in Next.js
 
 
 

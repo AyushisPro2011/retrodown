@@ -1,6 +1,11 @@
 import styles from './Launch.module.css'
 import Navbar from '../../Components/Navbar/Navbar'
-const LaunchPage = ({}) => {
+import Router, { useRouter } from 'next/router';
+
+
+const LaunchPage = () => {
+    const router = useRouter();
+    const title = router.query.title
     return(
         <div className={styles.launchpage}>
         <Navbar/>
@@ -10,7 +15,7 @@ const LaunchPage = ({}) => {
             <img alt='yay' src='yay.png'/>
             </div>
             <div className={styles.pageupperright}>
-                <h1>Game Heading</h1>
+                <h1>{title}</h1>
                     <button>Download Game</button>
                     <button>Download Emulator</button>
             </div>
@@ -22,4 +27,5 @@ const LaunchPage = ({}) => {
         </div>
     )
 }
+
 export default LaunchPage
