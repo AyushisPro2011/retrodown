@@ -45,4 +45,7 @@
     width: 98%;
     height: 80%;
     margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }

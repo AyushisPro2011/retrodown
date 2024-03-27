@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import styles from './Homepage.module.css'
 import Head from 'next/head'
 import Link from 'next/link'
+import Card from '../../Components/Card/Card'
 
 const Homepage = () => {
     const [selectedcategory , setselectedcategory] = useState(null)
@@ -22,14 +23,15 @@ const Homepage = () => {
                     <button onClick={() => {setselectedcategory("Emulators")}}>Emulators</button>
                 </div>
                 <div className={styles.cardbox}>
-                    {/* {selectedcategory} */}
-                    <Link href={{pathname: `/Launch/Launch` , query: {title: selectedcategory}}}>
-                        Hello
-                    </Link>
+                    <Card title={"Pokemon Firered"}/>
                 </div>
             </div>
            
         </div>
     )
 }
-export default Homepage
+export default Homepage;
+{/* {selectedcategory} */}
+                    {/* <Link href={{pathname: `/Launch/Launch` , query: {title: selectedcategory}}}>
+                        Hello
+                    </Link> */}
